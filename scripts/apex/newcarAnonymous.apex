@@ -1,0 +1,14 @@
+NewCar  cr=new NewCar();
+system.debug('Car Type' + cr.carType);
+system.debug('Car Name' + cr.carName);
+string carType=cr.startCar('Audi', 'A6');
+cr.accelerate(80);
+cr.checkSpeed();
+cr.brake(55);
+cr.checkSpeed();
+cr.accelerate(10);
+cr.checkSpeed();
+cr.brake(40);
+cr.checkSpeed();
+cr.stopCar();
+cr.checkSpeed();
