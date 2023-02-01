@@ -14,7 +14,7 @@ public static void accountSOQL_2(){
   string aPhone=acc.Phone;
   system.debug('account name ' + aName + 'account phone'  + aPhone + 'account number is ' + acc.AccountNumber); 
  //system.debug('website is ' + accWebsite );//will it work because it is not in the list so it will nit work
-
+//
 }
 
  public static void accountSOQL_3(){
@@ -100,6 +100,7 @@ public static void parentToChild_SOQL2() {
          }
          system.debug('Project name is ' + eachSP.Project_Name__c + ', total tickets ' + totalTickets + ', hp tickets ' + highPriorityTickets);
     }
+    
   }
 }
 
