@@ -71,7 +71,7 @@ for(salesforce_project__c eachSP:listSP){
     Integer highPriorityTickets=0;
     for(salesforce_ticket__c eachST=ListST){
         if(eachST.pR)
-    }
+    }//
 }
 */
 public static void parentToChild_SOQL2() {
