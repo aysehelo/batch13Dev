@@ -69,7 +69,7 @@ for(salesforce_project__c eachSP:listSP){
     system.debug('list ST' + ListST);
     integer totalTickets=ListST.size();
     Integer highPriorityTickets=0;
-    for(salesforce_ticket__c eachST=ListST){
+    for(salesforce_ticket__c eachST=ListST){  
         if(eachST.pR)
     }//
 }
