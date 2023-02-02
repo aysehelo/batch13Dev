@@ -13,5 +13,5 @@ public  class AritmeticCalculations {
        integer z=x*y*m ;
        system.debug('the result is equal to ' + z);
      }
-     
+     //command 
 }
