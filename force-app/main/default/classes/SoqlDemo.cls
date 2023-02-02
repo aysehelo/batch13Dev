@@ -90,7 +90,7 @@ public static void parentToChild_SOQL2() {
          integer totalTickets = listST.size();
          //2. high priority tickets
          integer highPriorityTickets = 0;
-         //each ticket and check if priority is high
+         //each ticket and check if priority is high//
          for (salesforce_ticket__c eachST : listST) {
               //checking priority == high
               if (eachST.Priority__c == 'High') {
@@ -100,6 +100,8 @@ public static void parentToChild_SOQL2() {
          }
          system.debug('Project name is ' + eachSP.Project_Name__c + ', total tickets ' + totalTickets + ', hp tickets ' + highPriorityTickets);
     }
+
+    updated
     
   }
 }
