@@ -102,7 +102,7 @@ public static void parentToChild_SOQL2() {
     }
 
     updated
-    
+    updating again
   }
 }
 
